@@ -1,0 +1,20 @@
+# Virtual environment
+
+.venv/
+venv/
+ENV/
+
+# Data Files (not commiting the huge datasets)
+data/raw/*
+data/procesed/*
+!data/raw/.gitkeep
+!data/procesed/.gitkeep
+
+
+#python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+#Mac OS
+.DS_Store
