@@ -21,13 +21,13 @@ Calibrated specifically for **Vadodara, Gujarat**, addressing the real-world cha
 **Visualization:** `plotly` (Interactive HTML dashboards), `matplotlib`
 **Workflow:** Git, GitHub, Virtual Environments
 
-## 📊 Key Deliverables
+## Key Deliverables
 1. **Synthetic Data Generator:** Produces 100+ years of daily rainfall data calibrated to Vadodara's semi-arid monsoon profile (~850mm annual mean, capped at 280mm extreme cloudbursts).
 2. **Validation Framework:** Automated checks to ensure synthetic data aligns with real-world physical and climatological constraints.
 3. **IDF Curve Engine:** Extracts the Annual Maximum Series (AMS), fits a Gumbel distribution, and outputs expected depths/intensities for 2, 5, 10, 25, 50, and 100-year return periods.
 
 ### Sample Output: 24-Hour IDF Curve (Vadodara)
-`![IDF Curve](outputs/image.png)`
+`![IDF Curve](outputs/intensity-duration-frequency-idf-curve-v.png)`
 > *Example: 100-Year Storm Expected Depth = 247.4 mm | Intensity = 10.31 mm/hr*
 
 ## How to Run
