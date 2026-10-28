@@ -1,0 +1,7 @@
+Return_Period_Years,Probability_of_Exceedance,Expected_Depth_24h_mm,Expected_Intensity_24h_mm_hr
+2,50.0%,95.6,3.98
+5,20.0%,136.2,5.68
+10,10.0%,163.2,6.8
+25,4.0%,197.2,8.22
+50,2.0%,222.4,9.27
+100,1.0%,247.4,10.31
